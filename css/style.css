@@ -42,19 +42,23 @@ html, body {
   
   
   
-  
+  .forside{
+    border: 40px solid white; 
+  }
   .forsideimg {
     
     object-fit: contain;
     display: block;
-    border: 40px solid white; 
+   filter: brightness(80%);
     width: 100%;        
     height: 100%;       
     box-sizing: border-box;
    
     
+   
+    
   }
-  
+
   
 
 .text-merge {
@@ -108,7 +112,46 @@ html, body {
 
   /* aflevering.html css */
   
- 
+  .header-container2 {
+    position: absolute;
+    left: 70%;
+  
+   }
+
+ .header-container2 li{
+  display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    margin-top: 25px;
+
+ }
+ .font4{
+  font-family: "GFS Didot", serif;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+  margin-top: 150px;
+
+ }
+ .p-font{
+  font-family: "GFS Didot", serif;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+  
+
+ }
+
+ .hr1 {
+  border: none;          
+  height: 2px;          
+  background-color: rgb(78, 84, 78); 
+  
+  margin: 2px 0px;        
+}
+
 
   .grid_1 {
     display: grid;
@@ -116,7 +159,7 @@ html, body {
     gap: 20px;
     position: fixed;
     width: 900px;
-    margin-top: 175px;
+    margin-top: 100px;
     margin-left: 290px;
     z-index: 10;
   }
@@ -141,7 +184,7 @@ html, body {
     bottom: 0;
     width: 100%;
     height: 400px;
-    background-color: rgb(88, 83, 56);
+    background-color: rgb(65, 69, 55);
     
   }
   
