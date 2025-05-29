@@ -15,15 +15,18 @@ document.querySelectorAll(".hover1, .hover2, .hover3").forEach((item) => {
 
 
 
+
   document.querySelectorAll(".hover1, .hover2, .hover3").forEach((item) => {
     item.addEventListener("mouseenter", () => {
       item.style.transform = "translateY(-70px)";
     });
     item.addEventListener("mouseleave", () => {
-      item.style.transform = "translateY(0)";
+      item.style.transform = "translateX(0)";
       item.style.transition ="0.5s ease";
     });
   });
+
+
 
   
   
