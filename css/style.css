@@ -12,11 +12,6 @@
 
   
 
-
-
-  
-  
-
   /*index.html*/
   
   .forside{
@@ -110,8 +105,7 @@
 
 .font1 {
   position: absolute;
-  left: 15%;       
-  top: 70%;      
+  left: 15%;          
   transform: translateY(-70%);
   font-family: "Mea Culpa", cursive;
   font-size: 300px;
@@ -208,7 +202,6 @@
  .font4{
   font-family: "GFS Didot", serif;
   display: flex;
-  
   justify-content: center;  
   align-items: center;      
   text-align: center;
@@ -623,15 +616,16 @@
   .grid_2 {
     grid-template-columns: 1fr;
     flex-direction: column-reverse;
-    width: 20px;
+    width: 150px;
     
    
   }
 
   .grid_2 img {
-    transform: scale(0.8);
+    width: 100%;
     order: -1;
     margin-left: -20px;
+    margin-bottom: 50px;
   }
 
 
